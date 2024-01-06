@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "reuseable authentication and auth system for differernt front end app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "vedant farde",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
